@@ -34,6 +34,16 @@ a {
   background: #57b8ff;
   padding: 2.1rem 3.4rem;
 }
+.future {
+  font-weight: 400;
+  font-size: 1.6rem;
+  line-height: 1.6rem;
+  display: flex;
+  align-items: center;
+  column-gap: 0.8rem;
+  text-transform: uppercase;
+  color: #57b8ff;
+}
 .font-title {
   font-weight: 400;
   font-size: 7.2rem;
@@ -91,6 +101,7 @@ a {
   color: #fac422;
 }
 .header-contact {
+  position: relative;
   display: flex;
   align-items: center;
   column-gap: 4rem;
@@ -98,6 +109,11 @@ a {
 .header-bin {
   width: 3.2rem;
   background: transparent;
+}
+.quantity {
+  position: absolute;
+  left: 3.1rem;
+  top: 0.7rem;
 }
 .header-contact-btn {
   font-weight: 400;
@@ -145,10 +161,16 @@ a {
 }
 
 .header-right {
+  position: relative;
   width: 50%;
 }
 .header-right-img {
   width: 100%;
+}
+.weblow {
+  position: absolute;
+  right: -5rem;
+  bottom: 2.6rem;
 }
 
 /* #endregion */
