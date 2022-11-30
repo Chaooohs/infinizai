@@ -1,3 +1,154 @@
+@import url("https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&family=Roboto&display=swap");
 
-@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&family=Roboto&display=swap');
+html {
+  font-size: 10px;
+  font-family: "Orbitron", sans-serif;
 
+  --white: #fff;
+}
+button {
+  font-family: "Orbitron", sans-serif;
+  margin: 0;
+  padding: 0;
+  background: transparent;
+  border: none;
+  cursor: pointer;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+a {
+  text-decoration: none;
+}
+
+.container {
+  width: 144rem;
+  margin: 0 auto;
+}
+.wrapper {
+  padding: 0 6rem;
+}
+.blue-btn {
+  background: #57b8ff;
+  padding: 2.1rem 3.4rem;
+}
+.font-title {
+  font-weight: 400;
+  font-size: 7.2rem;
+  line-height: 8.6rem;
+  text-transform: capitalize;
+  color: var(--white);
+}
+.font-item {
+  font-weight: 400;
+  font-size: 1.8rem;
+  line-height: 2.8rem;
+  color: var(--white);
+}
+
+/* #region Header */
+
+.header {
+  position: relative;
+  background: linear-gradient(
+    to right,
+    rgba(0, 0, 0, 1) 56%,
+    rgba(87, 184, 255, 1) 56%
+  );
+  padding: 2rem 0 25rem 0;
+}
+.header-nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.logo {
+  position: relative;
+  width: 17rem;
+  display: flex;
+  align-items: center;
+  column-gap: 8px;
+}
+.logo-dot {
+  position: absolute;
+  width: 0.55rem;
+  right: 0;
+  bottom: 13px;
+}
+.nav {
+  display: flex;
+  column-gap: 6rem;
+}
+.nav-link {
+  font-weight: 400;
+  font-size: 1.6rem;
+  line-height: 2.6rem;
+  color: var(--white);
+}
+.nav-link:hover {
+  color: #fac422;
+}
+.header-contact {
+  display: flex;
+  align-items: center;
+  column-gap: 4rem;
+}
+.header-bin {
+  width: 3.2rem;
+  background: transparent;
+}
+.header-contact-btn {
+  font-weight: 400;
+  font-size: 1.8rem;
+  line-height: 3rem;
+  color: var(--white);
+  padding: 1.6rem 3rem;
+  border: 1px solid var(--white);
+}
+.header-content {
+  display: flex;
+  margin-top: 21rem;
+}
+.header-social {
+  position: absolute;
+  top: 47%;
+  left: -12rem;
+  transform: rotate(-90deg);
+}
+.header-social-list {
+  display: flex;
+  column-gap: 5rem;
+}
+.header-social-link {
+  font-weight: 400;
+  font-size: 1.1rem;
+  line-height: 2.5rem;
+  text-transform: uppercase;
+  color: #80858f;
+}
+.header-left {
+  width: 50%;
+}
+.header-title {
+  margin: 1.4rem 0 0 0;
+}
+.header-item {
+  color: #999999;
+  margin: 4.5rem 0 0 0;
+}
+.header-left-btn {
+  display: flex;
+  padding-top: 5rem;
+  column-gap: 2rem;
+}
+
+.header-right {
+  width: 50%;
+}
+.header-right-img {
+  width: 100%;
+}
+
+/* #endregion */
