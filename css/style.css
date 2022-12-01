@@ -33,7 +33,7 @@ img {
 /* #region Common */
 
 .container {
-  width: 144rem;
+  max-width: 144rem;
   margin: 0 auto;
 }
 .wrapper {
@@ -63,11 +63,28 @@ img {
   text-transform: capitalize;
   color: var(--white);
 }
+.font-chapter {
+  font-weight: 400;
+  font-size: 6.4rem;
+  line-height: 7.4rem;
+  text-transform: capitalize;
+  color: var(--white);
+  margin: 1.2rem 0 0;
+}
 .font-item {
   font-weight: 400;
   font-size: 1.8rem;
   line-height: 2.8rem;
   color: var(--white);
+  margin: 0;
+}
+.font-shop-title {
+  font-weight: 400;
+  font-size: 3.2rem;
+  line-height: 4.2rem;
+  text-transform: capitalize;
+  color: var(--white);
+  margin: 0 0 2rem 0;
 }
 
 /* #endregion */
@@ -214,7 +231,7 @@ img {
 /* #region Sponsors */
 
 .sponsors {
-  background: #FDD04A;
+  background: #fdd04a;
   text-align: center;
   padding: 12.8rem 0;
 }
@@ -235,6 +252,37 @@ img {
   margin: 0 0 4.1rem;
 }
 .sponsors-link {
-  width: 19.3rem;
+  width: 13.4%;
   display: inline-block;
+}
+
+/* #endregion */
+
+/* #region Shop */
+
+.shop {
+  background: url("../img/shop-back.png") center / cover no-repeat;
+  padding: 13.6rem 0 13rem;
+}
+.shop-item {
+  margin: 4rem 0 0;
+}
+.shop-cards {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 6.3rem;
+}
+.shop-card-container {
+  width: 50%;
+}
+.shop-card {
+  width: 90%;
+  background: rgba(255, 255, 255, 0.15);
+  border-radius: 20px;
+  box-sizing: border-box;
+  padding: 3.5rem 3.5rem 3.5rem 8rem;
+  margin: 0 auto;
+}
+.shop-card-img {
+  width: 2.9rem;
 }
