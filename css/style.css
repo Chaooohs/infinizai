@@ -32,9 +32,12 @@ img {
 
 /* #region Common */
 
-.container {
+.main {
   max-width: 144rem;
   margin: 0 auto;
+}
+.container {
+  width: 50%;
 }
 .wrapper {
   padding: 0 6rem;
@@ -316,7 +319,7 @@ img {
   padding-bottom: 3.8rem;
 }
 .era-item {
-  width: 70%;
+  width: 73%;
   margin-top: 3.8rem;
   margin-bottom: 5.4rem;
 }
@@ -328,4 +331,35 @@ img {
 }
 .era-btn {
   width: 12.9rem;
+}
+
+/* #endregion */
+
+/* #region Custom */
+
+.custom {
+  background: #2a313c;
+}
+.custom-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.custom-left {
+  width: 59.6rem;
+}
+.custom-right {
+  width: 59.6rem;
+  justify-self: flex-end;
+  box-sizing: border-box;
+  padding: 8.5rem 0;
+}
+.custom-buttons {
+  display: flex;
+  justify-content: space-between;
+}
+.custom-btn-one {
+}
+.custom-btn-two {
+}
+.custom-btn-three {
 }
