@@ -26,6 +26,9 @@ ul {
 a {
   text-decoration: none;
 }
+img {
+  width: 100%;
+}
 
 /* #region Common */
 
@@ -50,6 +53,9 @@ a {
   text-transform: uppercase;
   color: var(--blue);
 }
+.future-fire {
+  width: 3.2rem;
+}
 .font-title {
   font-weight: 400;
   font-size: 7.2rem;
@@ -69,7 +75,6 @@ a {
 /* #region Header */
 
 .header {
-  position: relative;
   background: linear-gradient(
     to right,
     rgba(0, 0, 0, 1) 56%,
@@ -77,6 +82,9 @@ a {
   );
   padding: 2rem 0 25rem 0;
 }
+
+/* nav */
+
 .header-nav {
   display: flex;
   align-items: center;
@@ -87,13 +95,19 @@ a {
   width: 17rem;
   display: flex;
   align-items: center;
-  column-gap: 8px;
+  column-gap: 0.8rem;
+}
+.logo-img {
+  width: 4.4rem;
+}
+.logo-infinizai {
+  width: 10.3rem;
 }
 .logo-dot {
   position: absolute;
   width: 0.55rem;
   right: 0;
-  bottom: 13px;
+  bottom: 1rem;
 }
 .nav {
   display: flex;
@@ -120,6 +134,7 @@ a {
 }
 .quantity {
   position: absolute;
+  width: 2.1rem;
   left: 3.1rem;
   top: 0.7rem;
 }
@@ -131,14 +146,21 @@ a {
   padding: 1.6rem 3rem;
   border: 1px solid var(--white);
 }
+
+/* content */
+
 .header-content {
+  position: relative;
   display: flex;
   margin-top: 21rem;
 }
+
+/* social */
+
 .header-social {
   position: absolute;
-  top: 47%;
-  left: -12rem;
+  top: 24rem;
+  left: -18rem;
   transform: rotate(-90deg);
 }
 .header-social-list {
@@ -152,6 +174,9 @@ a {
   text-transform: uppercase;
   color: #80858f;
 }
+
+/* left */
+
 .header-left {
   width: 50%;
 }
@@ -168,6 +193,8 @@ a {
   column-gap: 2rem;
 }
 
+/* right */
+
 .header-right {
   position: relative;
   width: 50%;
@@ -177,6 +204,7 @@ a {
 }
 .weblow {
   position: absolute;
+  width: 13.5rem;
   right: -5rem;
   bottom: 2.6rem;
 }
