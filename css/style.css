@@ -33,11 +33,8 @@ img {
 /* #region Common */
 
 .main {
-  max-width: 144rem;
+  max-width: 1440px;
   margin: 0 auto;
-}
-.container {
-  width: 50%;
 }
 .wrapper {
   padding: 0 6rem;
@@ -171,7 +168,8 @@ img {
 
 .header-content {
   position: relative;
-  display: flex;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
   margin-top: 21rem;
 }
 
@@ -179,7 +177,7 @@ img {
 
 .header-social {
   position: absolute;
-  top: 24rem;
+  top: 20rem;
   left: -18rem;
   transform: rotate(-90deg);
 }
@@ -197,12 +195,6 @@ img {
 
 /* left */
 
-.header-left {
-  width: 50%;
-}
-.header-title {
-  margin: 1.4rem 0 0 0;
-}
 .header-item {
   color: #999999;
   margin: 4.5rem 0 0 0;
@@ -217,7 +209,6 @@ img {
 
 .header-right {
   position: relative;
-  width: 50%;
 }
 .header-right-img {
   width: 100%;
@@ -310,21 +301,21 @@ img {
   padding: 13rem 0;
 }
 .era-content {
-  display: flex;
+  display: grid;
+  grid-template-columns: 2fr 1fr;
 }
 .era-left {
-  width: 67%;
   box-sizing: border-box;
   padding-top: 4.4rem;
   padding-bottom: 3.8rem;
 }
 .era-item {
-  width: 73%;
   margin-top: 3.8rem;
   margin-bottom: 5.4rem;
 }
 .era-right {
-  width: 33%;
+  width: 49.2rem;
+  height: 55rem;
   display: flex;
   justify-content: center;
   background: url("../img/era/era-back.png") center / cover no-repeat;
@@ -340,7 +331,7 @@ img {
 .custom {
   background: #2a313c;
 }
-.custom-container {
+.custom-content {
   display: grid;
   grid-template-columns: 1fr 1fr;
 }
@@ -351,15 +342,21 @@ img {
   width: 59.6rem;
   justify-self: flex-end;
   box-sizing: border-box;
-  padding: 8.5rem 0;
+  padding: 7rem 0;
 }
 .custom-buttons {
   display: flex;
   justify-content: space-between;
 }
-.custom-btn-one {
+.custom-btn {
+  width: 19.6rem;
+  background: transparent;
+  border-radius: 20px;
+  box-sizing: border-box;
+  padding: 1.1rem;
 }
-.custom-btn-two {
+.custom-btn:hover {
+  background: #222730;
 }
-.custom-btn-three {
-}
+
+/* #endregion */
