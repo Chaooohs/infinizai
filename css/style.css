@@ -262,27 +262,70 @@ img {
 
 .shop {
   background: url("../img/shop-back.png") center / cover no-repeat;
+  text-align: center;
+  box-sizing: border-box;
   padding: 13.6rem 0 13rem;
+}
+.shop-future {
+  justify-content: center;
 }
 .shop-item {
   margin: 4rem 0 0;
 }
 .shop-cards {
-  display: flex;
-  flex-wrap: wrap;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  gap: 3.2rem;
   margin-top: 6.3rem;
 }
 .shop-card-container {
-  width: 50%;
 }
 .shop-card {
-  width: 90%;
+  position: relative;
   background: rgba(255, 255, 255, 0.15);
   border-radius: 20px;
+  text-align: left;
   box-sizing: border-box;
   padding: 3.5rem 3.5rem 3.5rem 8rem;
   margin: 0 auto;
 }
 .shop-card-img {
+  position: absolute;
+  top: 3.5rem;
+  left: 3.5rem;
   width: 2.9rem;
+}
+
+/* #endregion */
+
+/* #region Era */
+
+.era {
+  background: black;
+  box-sizing: border-box;
+  padding: 13rem 0;
+}
+.era-content {
+  display: flex;
+}
+.era-left {
+  width: 67%;
+  box-sizing: border-box;
+  padding-top: 4.4rem;
+  padding-bottom: 3.8rem;
+}
+.era-item {
+  width: 70%;
+  margin-top: 3.8rem;
+  margin-bottom: 5.4rem;
+}
+.era-right {
+  width: 33%;
+  display: flex;
+  justify-content: center;
+  background: url("../img/era/era-back.png") center / cover no-repeat;
+}
+.era-btn {
+  width: 12.9rem;
 }
