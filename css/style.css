@@ -360,3 +360,75 @@ img {
 }
 
 /* #endregion */
+
+/* #region Mode */
+
+.mode {
+  background: #2a313c;
+}
+.mode-content {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+.mode-card {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.mode-card:hover {
+  transform: scale(0.99);
+  z-index: 1;
+}
+.mode-block {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  row-gap: 3rem;
+}
+.mode-icon {
+  width: 12.8rem;
+}
+.mode-text {
+  font-weight: 400;
+  font-size: 4.8rem;
+  line-height: 5.8rem;
+  text-transform: capitalize;
+  color: var(--white);
+}
+
+/* #endregion */
+
+/* #region New */
+
+.new {
+  background: black;
+}
+.new-content {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  box-sizing: border-box;
+  padding: 13.6rem 0 13rem;
+}
+.new-left {
+}
+.new-left-img {
+  margin-top: 6.4rem;
+}
+.data {
+  display: block;
+  font-weight: 400;
+  font-size: 1.8rem;
+  line-height: 1.8remx;
+  color: var(--blue);
+  margin-top: 5.4rem;
+}
+.new-left-title {
+  font-weight: 400;
+  font-size: 3.6rem;
+  line-height: 4.6rem;
+  text-transform: capitalize;
+  color: var(--white);
+  margin: 2.8rem 0 0 0;
+}
