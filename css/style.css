@@ -32,6 +32,12 @@ img {
 span {
   display: block;
 }
+hr {
+  height: 1px;
+  background: #3e3e3e;
+  border: none;
+  margin: 4.7rem 0;
+}
 
 /* #region Common */
 
@@ -59,6 +65,9 @@ span {
 .future-fire {
   width: 3.2rem;
 }
+
+/* fonts */
+
 .font-title {
   font-weight: 400;
   font-size: 7.2rem;
@@ -88,6 +97,13 @@ span {
   text-transform: capitalize;
   color: var(--white);
   margin: 0 0 2rem 0;
+}
+.font-footer {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.5rem;
+  line-height: 3.8rem;
+  color: #999999;
 }
 
 /* #endregion */
@@ -489,7 +505,7 @@ span {
   outline: none;
   box-sizing: border-box;
   padding: 2.6rem 1.3rem;
-  margin-right: -1px;
+  margin-right: -2px;
 }
 .input-btn {
   border: none;
@@ -501,4 +517,43 @@ span {
 
 /* #region Footer */
 
+.footer {
+  background: #222730;
+  padding: 13rem 0 6rem;
+}
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+}
+.footer-logo {
+  width: 28.4rem;
+}
+.lorem {
+  line-height: 25px;
+  margin: 3.5rem 0 0 0;
+}
+.footer-menu {
+  width: 16.8rem;
+}
+.footer-item {
+  margin-bottom: 2.3rem;
+}
+.footer-social {
+  width: 24rem;
+}
+.footer-icons {
+  display: flex;
+  justify-content: space-between;
+}
+.footer-icon {
+  width: 4.8rem;
+}
+.under {
+  font-weight: 400;
+  font-size: 1.4rem;
+  line-height: 1.8rem;
+  text-align: center;
+  color: #898989;
+}
 
+/* #endregion */
