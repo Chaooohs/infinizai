@@ -292,8 +292,6 @@ hr {
   gap: 3.2rem;
   margin-top: 6.3rem;
 }
-.shop-card-container {
-}
 .shop-card {
   position: relative;
   background: rgba(255, 255, 255, 0.15);
@@ -353,6 +351,7 @@ hr {
 .custom-content {
   display: grid;
   grid-template-columns: 1fr 1fr;
+  column-gap: 2rem;
 }
 .custom-left {
   width: 59.6rem;
@@ -368,7 +367,7 @@ hr {
   justify-content: space-between;
 }
 .custom-btn {
-  width: 19.6rem;
+  /* width: 19.6rem; */
   background: transparent;
   border-radius: 20px;
   box-sizing: border-box;
@@ -460,8 +459,6 @@ hr {
   grid-template-columns: 1fr 1fr;
   column-gap: 2.4rem;
   row-gap: 4rem;
-}
-.news-card {
 }
 .data-right {
   margin-top: 3rem;
