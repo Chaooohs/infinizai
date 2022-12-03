@@ -236,6 +236,9 @@ hr {
   padding-top: 5rem;
   column-gap: 2rem;
 }
+.header-btn-team {
+  background: transparent;
+}
 
 /* right */
 
