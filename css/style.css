@@ -43,9 +43,11 @@ hr {
 
 .main {
   max-width: 1440px;
+  box-sizing: border-box;
   margin: 0 auto;
 }
 .wrapper {
+  box-sizing: border-box;
   padding: 0 6rem;
 }
 .blue-btn {
