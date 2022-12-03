@@ -15,7 +15,7 @@
 }
 @media (max-width: 992px) {
   html {
-    font-size: 7px;
+    font-size: 9px;
   }
 
   /** header */
@@ -90,8 +90,11 @@
     justify-content: space-evenly;
     row-gap: 0;
   }
-  .custom-btn {
-    width: 31rem;
+
+  /** mode */
+
+  .mode-text {
+    font-size: 3.8rem;
   }
 
   /** news */
