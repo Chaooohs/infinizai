@@ -201,7 +201,6 @@ hr {
 /* content */
 
 .header-content {
-  position: relative;
   display: grid;
   grid-template-columns: 1fr 1fr;
   margin-top: 21rem;
@@ -229,6 +228,9 @@ hr {
 
 /* left */
 
+.header-left {
+  position: relative;
+}
 .header-item {
   color: #999999;
   margin: 4.5rem 0 0 0;
@@ -362,7 +364,7 @@ hr {
   margin-bottom: 5.4rem;
 }
 .era-right {
-  width: 49.2rem;
+  width: 100%;
   height: 55rem;
   display: flex;
   justify-content: center;
@@ -510,10 +512,12 @@ hr {
 .join {
   background: url("../img/other/join-back.jpg") center / cover no-repeat;
   box-sizing: border-box;
-  padding: 13rem 29.6rem;
+  padding: 13rem 0;
 }
 .join-content {
+  width: 84.7rem;
   text-align: center;
+  margin: 0 auto;
 }
 .join-chapter {
   color: #141820;
