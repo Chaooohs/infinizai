@@ -125,7 +125,52 @@
 
   /** footer */
 
-  
+  .footer-content {
+    display: grid;
+    grid-template-columns: 1fr auto 3fr;
+    row-gap: 8rem;
+  }
+  .footer-content > div {
+    grid-column: 2;
+  }
+}
+@media (max-width: 768px) {
+  html {
+    font-size: 6px;
+  }
+
+  /** shop */
+
+  .shop-card {
+    width: 100%;
+  }
+
+  /** era */
+
+  .era-left {
+    width: 100%;
+  }
+
+  /** custom */
+
+  .custom-chapter {
+    width: 100%;
+  }
+  .custom-btn {
+    width: 100%;
+  }
+
+  /** news */
+
+  .news-cards {
+    grid-template-columns: 4fr 1fr;
+  }
+}
+
+@media (max-width: 450px) {
+  .news-cards {
+    grid-template-columns: 1fr 0fr;
+  }
 }
 
 /* ! delete shop-card-container */
