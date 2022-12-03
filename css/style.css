@@ -390,7 +390,6 @@ hr {
   width: 59.6rem;
 }
 .custom-right {
-  width: 59.6rem;
   justify-self: flex-end;
   box-sizing: border-box;
   padding: 7rem 0;
@@ -428,7 +427,7 @@ hr {
   align-items: center;
 }
 .mode-card:hover {
-  transform: scale(0.99);
+  transform: scale(0.98);
   z-index: 1;
 }
 .mode-block {
