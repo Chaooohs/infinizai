@@ -169,10 +169,9 @@ hr {
   right: 0;
   bottom: 1rem;
 }
-.nav {
-  justify-self: center;
+.nav-list {
   display: flex;
-  align-items: center;
+  justify-content: center;
   column-gap: 6rem;
 }
 .nav-link {
