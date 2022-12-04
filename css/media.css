@@ -181,15 +181,27 @@
   .wrapper {
     padding: 0 1.5rem;
   }
+  .sponsors-title,
+  .sponsors-item,
+  .shop-chapter,
+  .shop-item,
+  .join-chapter,
+  .join-item {
+    text-align: start;
+  }
 
   /** header */
 
   .weblow {
-    right: 0rem;
-  }
+    right: 0;
+    bottom: -16rem;
+}
 
   /** shop */
 
+  .shop-future {
+    justify-content: flex-start;
+  }
   .shop-card {
     width: 100%;
   }
@@ -234,10 +246,6 @@
   .join-content {
     width: 100%;
     padding: 0 1rem;
-  }
-  .join-chapter,
-  .join-item {
-    text-align: start;
   }
   .input-field {
     margin-bottom: 2rem;
