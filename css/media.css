@@ -73,10 +73,18 @@
 
   /** sponsors */
 
+  .sponsors-header {
+    text-align: start;
+    margin: 0;
+  }
   .sponsors-block {
-    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: flex-start;
     align-items: center;
-    row-gap: 2rem;
+    gap: 3rem;
+  }
+  .sponsors-link {
+    width: 15.3rem;
   }
 
   /** shop */
