@@ -138,20 +138,24 @@ hr {
 .burger:active {
   transform: translate(0);
 }
-.logo {
+.logo,
+.flogo {
   position: relative;
-  width: 17rem;
+  max-width: 17rem;
   display: flex;
   align-items: center;
   column-gap: 0.8rem;
 }
-.logo-img {
+.logo-img,
+.flogo-img {
   width: 4.4rem;
 }
-.logo-infinizai {
+.logo-infinizai,
+.flogo-infinizai {
   width: 10.3rem;
 }
-.logo-dot {
+.logo-dot,
+.flogo-dot {
   position: absolute;
   width: 0.55rem;
   right: 0;

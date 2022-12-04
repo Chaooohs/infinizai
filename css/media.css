@@ -193,6 +193,9 @@
     left: 0rem;
     transform: rotate(0deg);
   }
+  .header-left {
+    max-width: 51rem;
+  }
 
   /** custom */
 
@@ -286,5 +289,21 @@
   }
   .input-field {
     margin-bottom: 3rem;
+  }
+}
+@media (max-width: 340px) {
+
+  .font-chapter {
+    font-size: 4.9rem;
+    line-height: 6.4rem;
+}
+
+  /** header */
+
+  .logo-infinizai {
+    display: none;
+  }
+  .logo-dot {
+    display: none;
   }
 }
