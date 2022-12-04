@@ -516,6 +516,7 @@ hr {
 .join-content {
   width: 84.7rem;
   text-align: center;
+  box-sizing: border-box;
   margin: 0 auto;
 }
 .join-chapter {
