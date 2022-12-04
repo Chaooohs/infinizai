@@ -291,7 +291,7 @@
     margin-bottom: 3rem;
   }
 }
-@media (max-width: 385px) {
+@media (max-width: 380px) {
   .font-chapter {
     font-size: 4.9rem;
     line-height: 6.4rem;
@@ -310,6 +310,7 @@
 
   .custom-buttons {
     flex-direction: column;
+    row-gap: 2rem;
     margin-top: 10rem;
   }
   .custom-btn {
