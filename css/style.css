@@ -137,9 +137,18 @@ hr {
 /* nav */
 
 .header-nav {
-  display: flex;
+  display: grid;
+  grid-template-columns: auto 1fr auto;
   align-items: center;
-  justify-content: space-between;
+  column-gap: 3rem;
+}
+.burger {
+  display: none;
+  width: 5rem;
+  height: 5rem;
+}
+.burger:active {
+  transform: translate(0);
 }
 .logo {
   position: relative;
@@ -161,7 +170,9 @@ hr {
   bottom: 1rem;
 }
 .nav {
+  justify-self: center;
   display: flex;
+  align-items: center;
   column-gap: 6rem;
 }
 .nav-link {

@@ -25,6 +25,9 @@
   .header {
     background: black;
   }
+  .burger {
+    display: block;
+  }
   .nav {
     display: none;
   }
