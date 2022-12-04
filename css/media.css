@@ -158,6 +158,10 @@
 
   .join-content {
     width: 75rem;
+    text-align: start;
+  }
+  .join-form {
+    text-align: center;
   }
 
   /** footer */
@@ -219,12 +223,9 @@
   .wrapper {
     padding: 0 1.5rem;
   }
-  .sponsors-title,
-  .sponsors-item,
+
   .shop-chapter,
-  .shop-item,
-  .join-chapter,
-  .join-item {
+  .shop-item {
     text-align: start;
   }
 
