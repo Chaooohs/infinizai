@@ -1,6 +1,3 @@
-
-
-
 @media (max-width: 1320px) {
   html {
     font-size: 9px;
@@ -63,9 +60,6 @@
     grid-template-columns: 1fr;
     row-gap: 20rem;
   }
-  .header-left {
-    justify-self: center;
-  }
   .header-right {
     max-width: 65rem;
     justify-self: center;
@@ -89,23 +83,29 @@
 
   /** shop */
 
+  .shop-header {
+    text-align: start;
+    margin: 0;
+  }
+  .shop-future {
+    justify-content: start;
+  }
   .shop-cards {
     grid-template-columns: 1fr;
   }
   .shop-card {
-    width: 70rem;
+    max-width: 88rem;
+    margin: 0;
   }
 
   /** era */
 
   .era-content {
     grid-template-columns: 1fr;
-    justify-items: center;
     row-gap: 9rem;
   }
   .era-left {
-    width: 73.2rem;
-    justify-self: flex-start;
+    max-width: 78rem;
   }
 
   /** custom */
@@ -118,7 +118,6 @@
   }
   .custom-right {
     width: 100%;
-    justify-self: flex-start;
     padding: 14rem 0;
   }
   .custom-chapter {
@@ -182,6 +181,10 @@
   .wrapper {
     padding: 0 3rem;
   }
+  .font-chapter {
+    font-size: 5.4rem;
+    line-height: 6.4rem;
+  }
 
   /** header */
 
@@ -222,11 +225,6 @@
 @media (max-width: 492px) {
   .wrapper {
     padding: 0 1.5rem;
-  }
-
-  .shop-chapter,
-  .shop-item {
-    text-align: start;
   }
 
   /** header */
@@ -290,5 +288,3 @@
     margin-bottom: 3rem;
   }
 }
-
-
