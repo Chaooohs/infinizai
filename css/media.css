@@ -17,7 +17,7 @@
 }
 @media (max-width: 992px) {
   html {
-    font-size: 9px;
+    font-size: 8px;
   }
 
   /** header */
@@ -116,9 +116,9 @@
     grid-column: 1;
   }
 
-   /** join */
+  /** join */
 
-   .join-content {
+  .join-content {
     width: 75rem;
   }
 
@@ -141,6 +141,14 @@
     padding: 0 3rem;
   }
 
+  /** header */
+
+  .header-social {
+    top: -8rem;
+    left: 0rem;
+    transform: rotate(0deg);
+  }
+
   /** custom */
 
   .custom-btn {
@@ -148,7 +156,7 @@
   }
 
   /** mode */
- /*  .mode {
+  /*  .mode {
     background: url("../img/mode/world.jpg") center / cover no-repeat;
     padding: 16rem 0;
   }
@@ -173,7 +181,13 @@
   .wrapper {
     padding: 0 1.5rem;
   }
-  
+
+  /** header */
+
+  .weblow {
+    right: 0rem;
+  }
+
   /** shop */
 
   .shop-card {
@@ -192,9 +206,9 @@
     width: 100%;
   }
 
-   /** mode */
+  /** mode */
 
-   .mode {
+  .mode {
     background: url("../img/mode/world.jpg") center / cover no-repeat;
     padding: 16rem 0;
   }
@@ -220,6 +234,10 @@
   .join-content {
     width: 100%;
     padding: 0 1rem;
+  }
+  .join-chapter,
+  .join-item {
+    text-align: start;
   }
 }
 
