@@ -230,6 +230,7 @@ hr {
 
 .header-left {
   position: relative;
+  max-width: 61rem;
 }
 .header-item {
   color: #999999;
