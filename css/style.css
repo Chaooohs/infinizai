@@ -3,6 +3,7 @@
 html {
   font-size: 10px;
   font-family: "Orbitron", sans-serif;
+  -webkit-tap-highlight-color:rgba(0,0,0,0);    /*! убирает синий фон при клике*/
 
   --white: #fff;
   --blue: #57b8ff;
