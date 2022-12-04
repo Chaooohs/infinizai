@@ -239,6 +239,9 @@
   .join-item {
     text-align: start;
   }
+  .input-field {
+    margin-bottom: 2rem;
+  }
 }
 
 /* ! delete shop-card-container */
