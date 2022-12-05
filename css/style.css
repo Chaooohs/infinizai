@@ -152,10 +152,10 @@ hr {
 }
 .logo-infinizai,
 .flogo-infinizai {
-  /* position: relative; */
+  position: relative;
   width: 10.3rem;
 }
-.logo::after {
+.logo-infinizai::after {
   content: '';
   width: 0.5rem;
   height: 0.5rem;
