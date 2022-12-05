@@ -291,7 +291,7 @@
     margin-bottom: 3rem;
   }
 }
-@media (max-width: 355px) {
+@media (max-width: 354px) {
   .font-chapter {
     font-size: 4.9rem;
     line-height: 6.4rem;
