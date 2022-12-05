@@ -152,25 +152,15 @@ hr {
 }
 .logo-infinizai,
 .flogo-infinizai {
-  position: relative;
   width: 10.3rem;
 }
-.logo-infinizai::after {
-  content: '';
-  width: 0.5rem;
-  height: 0.5rem;
-  position: absolute;
-  bottom: 1rem;
-  right: -1rem;
-  background: url('../img/logo/dot.svg') center / cover no-repeat;
-}
-/* .logo-dot,
+.logo-dot,
 .flogo-dot {
   position: absolute;
-  width: 0.55rem;
+  width: 0.5rem;
   right: 0;
   bottom: 1rem;
-} */
+}
 .nav-list {
   display: flex;
   justify-content: center;
