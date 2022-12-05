@@ -140,7 +140,7 @@ hr {
 }
 .logo,
 .flogo {
-  /* position: relative; */
+  position: relative;
   max-width: 17rem;
   display: flex;
   align-items: center;
@@ -152,10 +152,10 @@ hr {
 }
 .logo-infinizai,
 .flogo-infinizai {
-  position: relative;
+  /* position: relative; */
   width: 10.3rem;
 }
-.logo-infinizai::after {
+.logo::after {
   content: '';
   width: 100%;
   height: 1.6rem;
