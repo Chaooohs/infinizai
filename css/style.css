@@ -3,12 +3,18 @@
 html {
   font-size: 10px;
   font-family: "Orbitron", sans-serif;
-  -webkit-tap-highlight-color:rgba(0,0,0,0);    /* убирает синий фон при клике*/
+  -webkit-tap-highlight-color: rgba(
+    0,
+    0,
+    0,
+    0
+  ); /* убирает синий фон при клике*/
 
   --white: #fff;
   --blue: #57b8ff;
 }
-body.no-scroll {                 /* запрещает покрутку при открыттом бургер меню */
+body.no-scroll {
+  /* запрещает покрутку при открыттом бургер меню */
   overflow: hidden;
 }
 button {
@@ -117,12 +123,14 @@ hr {
 /* #region Header */
 
 .header {
+  max-width: 1440px;
+  box-sizing: border-box;
+  padding: 2rem 6rem;
   background: linear-gradient(
     to right,
     rgba(0, 0, 0, 1) 56%,
     rgba(87, 184, 255, 1) 56%
   );
-  padding: 2rem 0 25rem 0;
 }
 
 /* nav */
@@ -207,10 +215,18 @@ hr {
 
 /* #region Generation */
 
+.generation {
+  background: linear-gradient(
+    to right,
+    rgba(0, 0, 0, 1) 56%,
+    rgba(87, 184, 255, 1) 56%
+  );
+  box-sizing: border-box;
+  padding: 20rem 0 25rem 0;
+}
 .generation-content {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  margin-top: 21rem;
 }
 
 /* social */
@@ -244,13 +260,13 @@ hr {
   display: inline;
 }
 .generation-underline::after {
-  content: '';
+  content: "";
   width: 100%;
   height: 1.6rem;
   position: absolute;
   bottom: -1rem;
   left: 0;
-  background: url('../img/header/underline.svg') center / cover no-repeat;
+  background: url("../img/header/underline.svg") center / cover no-repeat;
 }
 .generation-item {
   color: #999999;
@@ -307,13 +323,13 @@ hr {
   display: inline;
 }
 .sponsors-underline::after {
-  content: '';
+  content: "";
   width: 100%;
   height: 1.1rem;
   position: absolute;
   bottom: -1.6rem;
   left: 0;
-  background: url('../img/sponsors/underline.svg') center / cover no-repeat;
+  background: url("../img/sponsors/underline.svg") center / cover no-repeat;
 }
 .sponsors-item {
   color: #555555;
@@ -553,13 +569,13 @@ hr {
   display: inline;
 }
 .join-underline::after {
-  content: '';
+  content: "";
   width: 100%;
   height: 1.6rem;
   position: absolute;
   bottom: -2rem;
   left: 0;
-  background: url('../img/other/join-underline.svg') center / cover no-repeat;
+  background: url("../img/other/join-underline.svg") center / cover no-repeat;
 }
 .join-item {
   color: #555555;

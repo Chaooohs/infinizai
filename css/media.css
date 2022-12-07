@@ -21,8 +21,11 @@
   /** header */
 
   .header {
+    position: fixed;
+    top: 0;
+    z-index: 1;
+    width: 100%;
     background: black;
-    padding-bottom: 14rem;
   }
   .burger {
     display: block;
@@ -60,6 +63,10 @@
 
   /** generation */
 
+  .generation {
+    background: black;
+    padding-bottom: 14rem;
+  }
   .generation-content {
     grid-template-columns: 1fr;
     row-gap: 20rem;
