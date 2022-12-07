@@ -8,6 +8,9 @@ html {
   --white: #fff;
   --blue: #57b8ff;
 }
+body.no-scroll {                 /*! запрещает покрутку при открыттом бургер меню */
+  overflow: hidden;
+}
 button {
   font-family: "Orbitron", sans-serif;
   margin: 0;

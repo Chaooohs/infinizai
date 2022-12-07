@@ -17,11 +17,12 @@
   html {
     font-size: 8px;
   }
-
+  
   /** header */
 
   .header {
     background: black;
+    padding-bottom: 14rem;
   }
   .burger {
     display: block;
@@ -41,7 +42,7 @@
     bottom: 0;
     left: 0;
 
-    background-color: #2a313c;
+    background-color: #2a313c99;
     z-index: 1;
   }
   .nav.active .nav-list {
@@ -61,8 +62,9 @@
     row-gap: 20rem;
   }
   .header-right {
-    max-width: 65rem;
-    justify-self: center;
+  /*   max-width: 65rem;
+    justify-self: center; */
+    display: none;
   }
 
   /** sponsors */
