@@ -174,7 +174,7 @@
   /** join */
 
   .join-content {
-    width: 75rem;
+    max-width: 74rem;
     text-align: start;
   }
   .join-form {
