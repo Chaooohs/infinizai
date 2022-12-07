@@ -57,11 +57,14 @@
   .nav.active .nav-link {
     font-size: 3rem;
   }
-  .header-content {
+
+  /** generation */
+
+  .generation-content {
     grid-template-columns: 1fr;
     row-gap: 20rem;
   }
-  .header-right {
+  .generation-right {
   /*   max-width: 65rem;
     justify-self: center; */
     display: none;
@@ -188,14 +191,14 @@
     line-height: 6.4rem;
   }
 
-  /** header */
+  /** generation */
 
-  .header-social {
+  .generation-social {
     top: -8rem;
     left: 0rem;
     transform: rotate(0deg);
   }
-  .header-left {
+  .generation-left {
     max-width: 51rem;
   }
 
@@ -232,7 +235,7 @@
     padding: 0 1.5rem;
   }
 
-  /** header */
+  /** generation */
 
   .weblow {
     right: 0;
