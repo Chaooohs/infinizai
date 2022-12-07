@@ -315,7 +315,7 @@
     margin-bottom: 3rem;
   }
 }
-@media (max-width: 340px) {
+@media (max-width: 345px) {
   .font-chapter {
     font-size: 4.9rem;
     line-height: 6.4rem;
@@ -323,10 +323,13 @@
 
   /** header */
 
+  .logo {
+    width: 100%;
+  }
   .logo-infinizai {
     display: none;
   }
-  .logo-dot {
+  .logo::before {
     display: none;
   }
 

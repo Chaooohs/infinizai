@@ -146,10 +146,20 @@ hr {
 .logo,
 .flogo {
   position: relative;
-  max-width: 17rem;
+  width: 16.3rem;
   display: flex;
   align-items: center;
   column-gap: 0.8rem;
+}
+.logo::before,
+.flogo::before {
+  content: '';
+  position: absolute;
+  right: 0;
+  bottom: 1.1rem;
+  width: 0.5rem;
+  height: 0.5rem;
+  background: url('../img/logo/dot.svg') 0 0 / 0.5rem no-repeat;
 }
 .logo-img,
 .flogo-img {
@@ -159,13 +169,13 @@ hr {
 .flogo-infinizai {
   width: 10.3rem;
 }
-.logo-dot,
+/* .logo-dot,
 .flogo-dot {
   position: absolute;
   width: 0.5rem;
   right: 0;
   bottom: 1rem;
-}
+} */
 .nav-list {
   display: flex;
   justify-content: center;
