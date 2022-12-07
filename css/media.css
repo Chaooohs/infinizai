@@ -46,7 +46,7 @@
     left: 0;
 
     /* background-color: #2a313c; */
-    background: rgba(0, 0, 0, 0.97);
+    background: rgba(0, 0, 0, 0.94);
     z-index: 1;
   }
   .nav.active .nav-list {
