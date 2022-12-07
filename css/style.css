@@ -3,19 +3,13 @@
 html {
   font-size: 10px;
   font-family: "Orbitron", sans-serif;
-  -webkit-tap-highlight-color: rgba(
-    0,
-    0,
-    0,
-    0
-  ); /* убирает синий фон при клике*/
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);     /* убирает синий фон при клике*/
 
   --white: #fff;
   --blue: #57b8ff;
 }
 body.no-scroll {
-  /* запрещает покрутку при открыттом бургер меню */
-  overflow: hidden;
+  overflow: hidden;                     /* запрещает покрутку при открыттом бургер меню */
 }
 button {
   font-family: "Orbitron", sans-serif;
@@ -187,20 +181,27 @@ hr {
   color: #fac422;
 }
 .header-contact {
-  position: relative;
   display: flex;
   align-items: center;
   column-gap: 4rem;
 }
-.header-bin {
+.header__cart {
+  position: relative;
   width: 3.2rem;
   background: transparent;
 }
 .quantity {
   position: absolute;
-  width: 2.1rem;
-  left: 3.1rem;
-  top: 0.7rem;
+  top: -0.5rem;
+  right: -1rem;
+  width: 2rem;
+  height: 2rem;
+  font-size: 1rem;
+  color: var(--white);
+  text-align: center;
+  line-height: 2rem;
+  background: tomato;
+  border-radius: 50%;
 }
 .header-contact-btn {
   font-weight: 400;
