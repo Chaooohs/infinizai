@@ -197,11 +197,11 @@ hr {
   width: 2rem;
   height: 2rem;
   font-size: 1rem;
-  color: var(--white);
-  text-align: center;
   line-height: 2rem;
-  background: tomato;
+  text-align: center;
   border-radius: 50%;
+  color: var(--white);
+  background: tomato;
 }
 .header-contact-btn {
   font-weight: 400;
